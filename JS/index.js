@@ -161,6 +161,36 @@ window.addEventListener("DOMContentLoaded", function() {
       });
   })();
 
+// reveal on scroll
+window.addEventListener("DOMContentLoaded", function() {
+  var revealTargets = document.querySelectorAll(
+    ".title, .about-content .column, .services .card, .experience .left, .experience .right, .skills .column, .projects .card, .contact .column, .contact .row, footer, .projects .swiper-button-next, .projects .swiper-button-prev, .projects .swiper-pagination"
+  );
+
+  revealTargets.forEach(function(el) {
+    el.classList.add("reveal");
+  });
+
+  if ("IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2, rootMargin: "0px 0px -10% 0px" });
+
+    revealTargets.forEach(function(el) {
+      observer.observe(el);
+    });
+  } else {
+    revealTargets.forEach(function(el) {
+      el.classList.add("is-visible");
+    });
+  }
+});
+
 if (window.Swiper) {
   var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,

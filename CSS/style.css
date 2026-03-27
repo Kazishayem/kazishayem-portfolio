@@ -1505,8 +1505,12 @@ footer span a:hover{
 }
 
 .services .services-content .card{
-    width: calc(50% - 10px);
+    width: 100%;
     margin-bottom: 20px;
+}
+ .services .services-content{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 .navber .logo a span{
     font-size: 25px;

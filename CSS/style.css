@@ -369,7 +369,7 @@ section{
 .services .services-content .card{
 
     width: 100%;
-    max-width: 400px;
+    max-width: 480px;
     text-align: center;
     border-radius: 10px;
     background: linear-gradient(135deg, rgba(14,17,22,0.8), rgba(14,17,22,0.6));
@@ -409,7 +409,8 @@ section{
     margin: 10px 10px 0;
 }
 .services .services-content .card .text p{
-    padding: 7px;
+    padding: 6px 0 0;
+    margin: 0;
 
 }
 .services .services-content .card .text-2{
@@ -424,6 +425,21 @@ section{
 .services .services-content .card p{
     color: #fff;
 }
+.services .services-content .card .exp-list{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.45;
+    margin: 8px 0 0;
+    padding-left: 18px;
+    text-align: left;
+}
+.services .services-content .card .exp-list li{
+    margin: 0 0 6px;
+}
+.services .services-content .card .exp-list li:last-child{
+    margin-bottom: 0;
+}
 
 /* service section end */
 
@@ -433,6 +449,9 @@ section{
     font-family: 'Manrope',sans-serif;
     background: var(--ink);
 
+}
+.experience .title::after{
+    content: "Work History";
 }
 .experience .title-1 {
     color: #fff;

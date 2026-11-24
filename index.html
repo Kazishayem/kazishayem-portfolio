@@ -2,481 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kazi Shayem Mahamood | Flutter Developer</title>
-    <link rel="icon" href="images/logo.jpg" type="image">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101715">
+    <meta name="description" content="Kazi Shayem Mahamood is a Software Engineer and Flutter Developer in Dhaka, Bangladesh. Explore cross-platform apps, React projects and full-stack work.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kazi Shayem Mahamood | Software Engineer &amp; Flutter Developer">
+    <meta property="og:description" content="Cross-platform mobile apps, React web features and full-stack project work by Kazi Shayem Mahamood.">
+    <meta property="og:url" content="https://kazishayem.me/">
+    <meta property="og:image" content="https://kazishayem.me/images/kazi.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="canonical" href="https://kazishayem.me/">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- slider css -->
-    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <!-- slider css end -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e2bc05ea1f.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="JS/index.js" defer></script>
+    <title>Kazi Shayem Mahamood | Software Engineer &amp; Flutter Developer</title>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+        <symbol id="github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.5c0-1 .1-1.4-.5-2 3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.9 4.9 0 0 0-.1-3.6s-1.1-.4-3.7 1.4a12.8 12.8 0 0 0-6.8 0C6 1.5 4.9 1.9 4.9 1.9a4.9 4.9 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7-.5.5-.6 1.1-.5 2v3.5"/></symbol>
+        <symbol id="linkedin" viewBox="0 0 24 24"><path d="M5 9v11M5 4v.1M10 20V9h4v2c1-3 6-3 6 2v7M14 11v9"/></symbol>
+        <symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+        <symbol id="code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></symbol>
+    </svg>
 
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    
-    <!--header section start-->
-
-    <nav class="navber">
-        <div class="max-width">
-            <div class="logo"> <a href="#"><span>KAZI SHAYEM. </span></a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About Me</a></li>
-                <li><a href="#services" class="menu-btn">Education</a></li>
-                <li><a href="#experience" class="menu-btn">Experience</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <!-- <li><a href="#certificates" class="menu-btn">Certificates</a></li> -->
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <!-- <i class="fas fa-bars"></i> -->
-                <i class="fa-solid fa-bars"></i>
-            </div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home"><span class="brand-mark">ks<span>.</span></span><span>Kazi Shayem<span class="brand-role">Software Engineer</span></span></a>
+            <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-navigation" aria-expanded="false"><span></span><span></span></button>
+            <nav id="site-navigation" aria-label="Main navigation">
+                <a href="#projects">Work</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a>
+                <a class="nav-contact" href="#contact">Let's talk</a>
+            </nav>
         </div>
-    </nav>
+        <div id="scroll-progress" aria-hidden="true"></div>
+    </header>
 
-    <!--header section end-->
-
-    <!--home section start-->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hi, I'm</div>
-                <div class="text-2">Kazi Shayem Mahamood</div>
-                <div class="text-3">I am a <span class="typing"></span></div>
-                <a href="#contact">Let's Talk</a>
+    <main id="main-content">
+        <section class="hero container" id="home" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow hero-intro">Software Engineer · Flutter Developer · Dhaka, Bangladesh</p>
+                <h1 id="hero-title">Kazi Shayem.<br>Apps with <em>purpose.</em></h1>
+                <p class="hero-description">I build cross-platform mobile apps with Flutter and responsive web features with React. At RedMouse Agency, I work remotely across mobile, web and backend workflows.</p>
+                <div class="hero-actions"><a class="button button-primary" href="#projects">View my work</a><a class="button button-outline" href="CV/Kazi-Shayem-Mahamood-CV.pdf" download="Kazi-Shayem-Mahamood-CV.pdf">Download CV <svg class="icon" aria-hidden="true"><use href="#download"/></svg></a></div>
+                <div class="hero-socials"><span>Find me on</span><a href="https://github.com/Kazishayem" target="_blank" rel="noopener noreferrer" aria-label="Kazi Shayem on GitHub (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#github"/></svg> GitHub</a><a href="https://www.linkedin.com/in/kazishayem/" target="_blank" rel="noopener noreferrer" aria-label="Kazi Shayem on LinkedIn (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#linkedin"/></svg> LinkedIn</a></div>
             </div>
-        </div>
-    </section>
-
-    <!--home section end-->
-
-    <!--about section start-->
-
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About Me</h2>
-            <div class="about-content">
-              <div class="column left">
-                  <img src="images/kazi.jpg" alt="">
-              </div>
-              <div class="column right">
-                  <div class="text">I am Kazi Shayem, a <span class="typing-2"></span></div>
-                  <p>Looking for a challenging role in a dynamic organization where I can apply my skills in Flutter development, REST API integration, and mobile app development to build reliable and user-friendly applications. I aim to contribute to the team's success while continuously learning new technologies and improving my software development skills.</p>
-                  <a href="./CV/Kazi Shayem mahamood.pdf" download="./CV/Kazi Shayem Mahamood.pdf">Download CV</a>
-              </div>
+            <div class="hero-visual">
+                <div class="portrait-orbit" aria-hidden="true"></div>
+                <div class="portrait-shell"><img src="images/optimized/kazi.webp" alt="Kazi Shayem Mahamood" width="720" height="897" fetchpriority="high"><div class="portrait-caption"><span class="caption-line"></span><span>Developer by craft.<br><strong>Problem solver at heart.</strong></span></div></div>
+                <div class="floating-label label-code" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#code"/></svg><span>Flutter &amp; React<small>Mobile and web</small></span></div>
+                <div class="floating-label label-detail" aria-hidden="true"><span class="detail-symbol">✦</span> Remote · RedMouse Agency</div>
+                <span class="visual-coordinate" aria-hidden="true">Dhaka · Bangladesh</span>
             </div>
-        </div>
-    </section>
+            <div class="hero-bottom"><span>Good code. Better experiences.</span><a href="#projects">Scroll to discover</a><button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="false" hidden>Pause motion</button></div>
+        </section>
 
+        <div class="stack-strip" aria-label="Core technologies"><div class="container stack-strip-inner"><span class="eyebrow">Built with</span><span>Flutter</span><span class="strip-plus" aria-hidden="true">✦</span><span>Dart</span><span class="strip-plus" aria-hidden="true">✦</span><span>React</span><span class="strip-plus" aria-hidden="true">✦</span><span>Riverpod</span><span class="strip-plus" aria-hidden="true">✦</span><span>NestJS</span><span class="strip-plus" aria-hidden="true">✦</span><span>PostgreSQL</span></div></div>
 
-
-    <!--about section end-->
-
-        <!--services section start-->
-
-        <section class="services" id="services">
-            <div class="max-width">
-        <h2 class="title">Education</h2>
-        <div class="services-content">
-
-            <div class="card">
-                <div class="box">
-                    <i class="fa-solid fa-user-graduate"></i>
-                    <div class="text">M.Sc. in Computer Science (Software Engineering) <br>
-                        <p>CGPA: 3.51 out of 4.00</p> <br>
-                        <div class="text-2">American International University Bangladesh (AIUB)</div>
-                        </div>
-
-                </div>
-            </div>
-        <div class="card">
-            <div class="box">
-                <i class="fa-solid fa-user-graduate"></i>
-                <div class="text">B.Sc. in Computer Science and Engineering (CSE) <br>
-                    <p>2022 | CGPA: 3.34 out of 4.00</p> <br>
-                    <div class="text-2">American International University Bangladesh (AIUB)</div>
+        <section class="section container" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading" data-reveal><div><p class="eyebrow section-kicker">Selected work</p><h2 id="projects-title">Ideas made <em>tangible.</em></h2></div><p>Three products in development lead the work, followed by mobile apps and client projects.</p></div>
+            <div class="project-toolbar" data-reveal><div class="project-filters" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All work <span>10</span></button><button type="button" data-filter="client" aria-pressed="false">Client projects <span>4</span></button><button type="button" data-filter="personal" aria-pressed="false">Personal projects <span>6</span></button></div><span id="project-filter-status" class="filter-status" role="status" aria-live="polite">10 projects</span></div>
+            <div class="project-grid">
+                <article class="project-card project-featured" data-category="personal" data-reveal>
+                    <a class="project-image image-pouchai" href="images/optimized/project_pouchai_overview.jpg" data-preview="images/optimized/project_pouchai_overview.jpg" data-title="Pouchai — Journey Safety Companion" data-alt="Pouchai onboarding and active journey screens from the app's UI regression captures" aria-label="Personal project: Enlarge Pouchai app screen previews"><img src="images/optimized/project_pouchai_overview.jpg" alt="Pouchai onboarding and journey screens captured from the application" width="1200" height="800" loading="lazy" decoding="async"><span class="image-label">Personal project</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">In development</span><span class="project-status">Android app</span></div><h3>Pouchai — Journey Safety Companion</h3><p>An Android-first app for sharing active journey status with trusted people. The current MVP includes live tracking, recovery after interruptions and journey safety checks.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>Firebase</li><li>Node.js</li><li>TypeScript</li></ul></div>
+                </article>
+                <article class="project-card project-featured" data-category="personal" data-reveal>
+                    <a class="project-image image-madrasah" href="images/optimized/project_madrasah_dashboard.png" data-preview="images/optimized/project_madrasah_dashboard.png" data-title="Madrasah Management System" data-alt="Madrasah staff dashboard design showing desktop and mobile layouts in English and Bengali" aria-label="Full-stack project: Enlarge Madrasah dashboard design preview"><img src="images/optimized/project_madrasah_dashboard.png" alt="Madrasah dashboard and responsive mobile layout from Figma" width="1300" height="972" loading="lazy" decoding="async"><span class="image-label">Figma UI preview</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">In development</span><span class="project-status">Full-stack system</span></div><h3>Madrasah Management System</h3><p>A staff workspace for madrasah administration, with student records, admissions, dashboards and Kitab Khana library workflows.</p><ul class="tags" aria-label="Technologies"><li>React</li><li>Zustand</li><li>NestJS</li><li>Prisma</li><li>PostgreSQL</li></ul></div>
+                </article>
+                <article class="project-card project-featured" data-category="personal" data-reveal>
+                    <a class="project-image image-tutorkhata" href="images/optimized/project_tutorkhata_icon.png" data-preview="images/optimized/project_tutorkhata_icon.png" data-title="TutorKhata app icon" data-alt="Official TutorKhata book and pencil app icon" aria-label="Personal project: Enlarge TutorKhata product icon"><img src="images/optimized/project_tutorkhata_icon.png" alt="TutorKhata book and pencil app icon" width="512" height="512" loading="lazy" decoding="async"><span class="image-label">Product icon</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Tutor workspace</span><span class="project-status">Flutter app</span></div><h3>TutorKhata</h3><p>A workspace for tutors in Bangladesh to manage students, classes, schedules, attendance, fees, payments and reports.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>Riverpod</li><li>Supabase</li></ul></div>
+                </article>
+                <article class="project-card" data-category="client" data-reveal>
+                    <a class="project-image image-streaming" href="images/streamley.jpeg" data-preview="images/streamley.jpeg" data-title="Subscription Video Content OTT Platform" data-alt="Video streaming app screens for viewers and creators" aria-label="Client project: Enlarge video platform preview"><img src="images/optimized/streamley.webp" alt="Subscription video platform interface" width="1200" height="900" loading="lazy" decoding="async"><span class="image-label">Client project</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Video streaming</span><a class="project-link" href="https://www.loom.com/share/dec499ab9a7b495daaafb7e7a04dcb96" target="_blank" rel="noopener noreferrer" aria-label="Watch walkthrough: Subscription Video Content OTT Platform (opens in a new tab)">Watch walkthrough</a></div><h3>Subscription Video Content OTT Platform</h3><p>Built a subscription-based platform with Viewer and Creator roles, video uploads and Stripe payments. Integrated more than 30 REST API endpoints.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Riverpod</li><li>Dio</li><li>REST API</li><li>Stripe</li></ul></div>
+                </article>
+                <article class="project-card" data-category="client" data-reveal>
+                    <div class="project-image project-art-community" role="img" aria-label="Feature illustration of the community support app connecting help seekers and volunteers">
+                        <span class="image-label">Feature illustration</span>
+                        <span class="community-orbit orbit-one" aria-hidden="true"></span><span class="community-orbit orbit-two" aria-hidden="true"></span>
+                        <span class="community-node community-seeker">Help seeker</span><span class="community-node community-channel">LiveKit · Socket.IO</span><span class="community-node community-volunteer">Volunteer</span>
+                        <span class="community-linkline" aria-hidden="true"></span>
                     </div>
-
-            </div>
-        </div>
-
-                <div class="card">
-                    <div class="box">
-                        <i class="fa-solid fa-user-graduate"></i>
-                <div class="text">HSC in Science <br>
-                    <p>2017 | GPA: 5.00 out of 5.00</p> <br>
-                    <div class="text-2">Milestone College, Dhaka</div>
-                    </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="box">
-                <i class="fa-solid fa-user-graduate"></i>
-                <div class="text">SSC in Science
-                    <br>
-                    <p>2015 | GPA: 4.78 out of 5.00</p> <br>
-                    <div class="text-2">CDA Public School and College, Chattogram</div>
-            </div>
-        </div>
-        </div>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Client project</span><span class="project-status">Community support</span></div><h3>Community Support Mobile App</h3><p>Mobile workflows connecting Help Seekers and Volunteers through real-time coordination, chat and audio/video communication.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Riverpod</li><li>LiveKit</li><li>Socket.IO</li><li>FCM</li></ul></div>
+                </article>
+                <article class="project-card" data-category="client" data-reveal>
+                    <a class="project-image image-fitness" href="images/optimized/project_iron_ready_full.webp" data-preview="images/optimized/project_iron_ready_full.webp" data-title="Iron Ready — Athlete Fitness &amp; Recovery App" data-alt="Iron Ready athlete fitness and recovery app screens" aria-label="Client project: Enlarge Iron Ready preview"><img src="images/optimized/project_iron_ready.webp" alt="Iron Ready fitness and recovery app screens" width="1200" height="900" loading="lazy" decoding="async"><span class="image-label">Client project</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Fitness &amp; recovery</span><a class="project-link" href="https://www.loom.com/share/431364b7f8c24d3a903d6cce39a1aec2" target="_blank" rel="noopener noreferrer" aria-label="Watch walkthrough: Iron Ready (opens in a new tab)">Watch walkthrough</a></div><h3>Iron Ready</h3><p>Athlete dashboards, workout planning and recovery tracking, translated from more than 30 Figma designs into reusable Flutter screens.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>Responsive UI</li><li>Figma to Flutter</li></ul></div>
+                </article>
+                <article class="project-card" data-category="personal" data-reveal>
+                    <a class="project-image image-quicknotes" href="images/optimized/project_quicknotes_icon.png" data-preview="images/optimized/project_quicknotes_icon.png" data-title="Quick Notes app icon" data-alt="Quick Notes book and pencil app icon from the public repository" aria-label="Personal project: Enlarge Quick Notes app icon"><img src="images/optimized/project_quicknotes_icon.png" alt="Quick Notes book and pencil app icon" width="512" height="512" loading="lazy" decoding="async"><span class="image-label">Product icon</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Personal project</span><a class="project-link" href="https://github.com/Kazishayem/QuickNotes" target="_blank" rel="noopener noreferrer" aria-label="View source: Quick Notes on GitHub (opens in a new tab)">View source</a></div><h3>Quick Notes</h3><p>A secure note-taking app with Firebase Authentication, real-time Cloud Firestore sync and a Clean Architecture foundation.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Firebase</li><li>Riverpod</li><li>GoRouter</li></ul></div>
+                </article>
+                <article class="project-card" data-category="client" data-reveal>
+                    <a class="project-image image-ecommerce" href="images/optimized/project_ecommerce_full.webp" data-preview="images/optimized/project_ecommerce_full.webp" data-title="E-commerce Shopping App" data-alt="E-commerce app screens showing product browsing and shopping interfaces" aria-label="Client project: Enlarge E-commerce Shopping App preview"><img src="images/optimized/project_ecommerce.webp" alt="E-commerce shopping app interface designs" width="1200" height="800" loading="lazy" decoding="async"><span class="image-label">Client project</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Commerce</span><a class="project-link" href="https://www.loom.com/share/e97a25b39f8c46618dd9aae4509d951b" target="_blank" rel="noopener noreferrer" aria-label="Watch walkthrough: E-commerce Shopping App (opens in a new tab)">Watch walkthrough</a></div><h3>E-commerce Shopping App</h3><p>Shopping UI for product browsing, product details, cart and checkout, translated from Figma into reusable Flutter components.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>Figma to Flutter</li><li>Material UI</li></ul></div>
+                </article>
+                <article class="project-card" data-category="personal" data-reveal>
+                    <a class="project-image image-foodie" href="images/project_foodie.png" data-preview="images/project_foodie.png" data-title="Foodie" data-alt="Foodie food delivery mobile app interface" aria-label="Personal project: Enlarge Foodie preview"><img src="images/optimized/project_foodie.webp" alt="Foodie food delivery mobile app screens" width="558" height="337" loading="lazy" decoding="async"><span class="image-label">Personal project</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Food delivery</span><a class="project-link" href="https://github.com/Kazishayem/Foodie-App" target="_blank" rel="noopener noreferrer" aria-label="View source: Foodie on GitHub (opens in a new tab)">View source</a></div><h3>Foodie</h3><p>A food delivery app with authentication, food browsing and order management using BLoC and REST API integration.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>BLoC</li><li>REST API</li><li>Equatable</li></ul></div>
+                </article>
+                <article class="project-card" data-category="personal" data-reveal>
+                    <a class="project-image image-healthcare" href="images/project_healthcare.png" data-preview="images/project_healthcare.png" data-title="HealthCare" data-alt="HealthCare mobile app interface screens" aria-label="Personal project: Enlarge HealthCare preview"><img src="images/optimized/project_healthcare.webp" alt="HealthCare mobile application screens" width="1066" height="694" loading="lazy" decoding="async"><span class="image-label">Personal project</span><span class="image-expand" aria-hidden="true">+</span></a>
+                    <div class="project-info"><div class="project-title-row"><span class="project-number">Healthcare</span><a class="project-link" href="https://github.com/Kazishayem/HealthCare-_app" target="_blank" rel="noopener noreferrer" aria-label="View source: HealthCare on GitHub (opens in a new tab)">View source</a></div><h3>HealthCare</h3><p>A responsive healthcare app interface translated from Figma into Flutter with Material UI.</p><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>Material UI</li><li>Responsive UI</li></ul></div>
+                </article>
+                <a class="github-card" href="https://github.com/Kazishayem" target="_blank" rel="noopener noreferrer" data-reveal><svg class="icon github-card-icon" aria-hidden="true"><use href="#github"/></svg><span class="eyebrow">The work behind the screens</span><h3>A little more<br>on GitHub<span class="accent">.</span></h3><span class="text-link">Explore my repositories</span></a>
             </div>
         </section>
-    
-    
-    
-        <!--services section end-->
 
+        <section class="about-section section" id="about" aria-labelledby="about-title"><div class="container about-grid">
+            <div data-reveal><p class="eyebrow section-kicker">A little about me</p><h2 id="about-title">Mobile craft.<br>Full-stack <em>curiosity.</em></h2><div class="about-signature">Kazi Shayem<span>Software Engineer · Flutter Developer</span></div></div>
+            <div class="about-copy" data-reveal><p class="lead">I turn product ideas into useful mobile and web experiences.</p><p>I'm a Software Engineer at RedMouse Agency, working remotely from Dhaka, Bangladesh. My work spans cross-platform apps with Flutter and responsive web features with React.</p><p>Across client and personal projects, I've worked with Clean Architecture and MVVM, Riverpod and BLoC, REST API integration, real-time communication and full-stack workflows.</p><div class="about-principles"><span>Readable, maintainable application foundations</span><span>Responsive interfaces shaped around real workflows</span><span>Clear collaboration across frontend and backend</span></div><a class="text-link" href="#contact">Let's build something together</a></div>
+        </div></section>
 
-         <!--Experience start-->
-
-         <section class="experience services" id="experience">
-            <div class="max-width">
-                <h2 class="title">Experience</h2>
-                <div class="services-content">
-                    <div class="card">
-                        <div class="box">
-                            <i class="fa-solid fa-briefcase"></i>
-                            <div class="text">Junior Flutter Developer <br>
-                                <p>Softvence Delta | April 2025 - May 2026</p>
-                                <ul class="exp-list">
-                                    <li>Developed and maintained cross-platform mobile applications using Flutter and Dart</li>
-                                    <li>Implemented Clean Architecture (MVVM) for scalable and maintainable code structure</li>
-                                    <li>Integrated REST APIs and handled multiple endpoints using Dio</li>
-                                    <li>Applied Riverpod and BLoC for efficient state management and performance optimization</li>
-                                    <li>Built modular UI components ensuring responsive design across multiple devices</li>
-                                    <li>Collaborated with team members to deliver production-ready features and bug fixes</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <i class="fa-solid fa-briefcase"></i>
-                            <div class="text">Software Engineer (Intern) <br>
-                                <p>Digital Lab | Jan 2025 - March 2025</p>
-                                <ul class="exp-list">
-                                    <li>Developed mobile app features using Flutter (Dart)</li>
-                                    <li>Learned and implemented Kotlin basics for Android development</li>
-                                    <li>Worked with REST APIs and backend integration</li>
-                                    <li>Assisted in debugging and improving app performance</li>
-                                    <li>Collaborated with team members in an agile environment</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <section class="section container" id="experience" aria-labelledby="experience-title">
+            <div class="section-heading" data-reveal><div><p class="eyebrow section-kicker">The journey so far</p><h2 id="experience-title">Learning through <em>building.</em></h2></div><p>Hands-on experience turning requirements into mobile interfaces, integrations, and dependable features.</p></div>
+            <div class="experience-list">
+                <article class="experience-row" data-reveal><div class="experience-meta"><span class="timeline-dot" aria-hidden="true"></span><p class="eyebrow">June 2026 — Present</p><span>RedMouse Agency · Remote</span></div><div class="experience-detail"><h3>Software Engineer</h3><p>Develop cross-platform mobile applications and responsive web features with a distributed team.</p><ul><li>Build mobile application features with Flutter and Dart.</li><li>Develop responsive web features with React.</li><li>Implement authentication, role-based access control and data-driven workflows.</li><li>Collaborate across frontend and backend integration.</li></ul><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>React</li><li>Role-based access</li></ul></div></article>
+                <article class="experience-row" data-reveal><div class="experience-meta"><span class="timeline-dot" aria-hidden="true"></span><p class="eyebrow">November 2025 — May 2026</p><span>Softvence Delta</span></div><div class="experience-detail"><h3>Junior Flutter Developer</h3><p>Developed and maintained cross-platform applications, from API-connected features to responsive interfaces.</p><ul><li>Structured app features with Clean Architecture and MVVM.</li><li>Integrated REST API endpoints with Dio and handled application state with Riverpod and BLoC.</li><li>Built modular UI components and collaborated on feature delivery, bug fixes and performance.</li></ul><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Riverpod</li><li>BLoC</li><li>Dio</li><li>MVVM</li></ul></div></article>
+                <article class="experience-row" data-reveal><div class="experience-meta"><span class="timeline-dot" aria-hidden="true"></span><p class="eyebrow">August 2025 — October 2025</p><span>Digital Lab</span></div><div class="experience-detail"><h3>Software Engineer (Intern)</h3><p>Contributed mobile app features and gained experience with APIs, backend integration and team development.</p><ul><li>Implemented mobile features with Flutter and Dart.</li><li>Worked with REST APIs and learned Kotlin basics for Android.</li><li>Helped debug issues and improve app performance in an agile team.</li></ul><ul class="tags" aria-label="Technologies"><li>Flutter</li><li>Dart</li><li>Kotlin basics</li><li>REST APIs</li></ul></div></article>
             </div>
         </section>
-<!--Experience end-->
 
-
-<!--skill start-->
-
-
-<section class="skills" id="skills">
-
-<div class="max-width">
-    <h2 class="title">My Skills</h2>
-    <div class="skills-content">
-        <div class="column left">
-            <div class="text">Mobile Development Focus</div>
-            <p>Flutter and Dart with strong emphasis on clean architecture, state management, and API integration. I build scalable mobile apps with reliable performance and maintainable code.</p>
-            <a href="#projects">See Projects</a>
-        </div>
-        <div class="column right">
-            <div class="bars">
-                <div class="info">
-                    <span>Flutter</span>
-                    <span>90%</span>
-                </div>
-                <div class="line flutter"></div>
+        <section class="section skills-section" id="skills" aria-labelledby="skills-title"><div class="container">
+            <div class="section-heading" data-reveal><div><p class="eyebrow section-kicker">Tools of the trade</p><h2 id="skills-title">My everyday <em>toolkit.</em></h2></div><p>The technologies and practices I use to bring mobile applications to life.</p></div>
+            <div class="skills-grid">
+                <article class="skill-card" data-reveal><span class="skill-index">Mobile</span><h3>Mobile development</h3><p>Cross-platform mobile apps and Android build workflows.</p><ul class="tags"><li>Flutter</li><li>Dart</li><li>Kotlin</li><li>Material UI</li><li>Android &amp; iOS builds</li></ul></article>
+                <article class="skill-card" data-reveal><span class="skill-index">Web &amp; full-stack</span><h3>Web applications</h3><p>Responsive interfaces and backend-connected product workflows.</p><ul class="tags"><li>React</li><li>NestJS</li><li>Prisma ORM</li><li>PostgreSQL</li><li>JavaScript</li></ul></article>
+                <article class="skill-card" data-reveal><span class="skill-index">Architecture &amp; state</span><h3>Architecture &amp; state</h3><p>Structured application layers, clear state flows and reusable components.</p><ul class="tags"><li>Clean Architecture</li><li>MVVM</li><li>Provider</li><li>Riverpod</li><li>BLoC</li></ul></article>
+                <article class="skill-card" data-reveal><span class="skill-index">APIs &amp; real-time</span><h3>Integrations</h3><p>Application services, real-time communication and media workflows.</p><ul class="tags"><li>REST APIs</li><li>Dio</li><li>WebSocket</li><li>Socket.IO</li><li>LiveKit / WebRTC</li></ul></article>
+                <article class="skill-card" data-reveal><span class="skill-index">Data &amp; services</span><h3>Backend services</h3><p>Authentication, cloud storage, messaging and database integrations.</p><ul class="tags"><li>Firebase Auth</li><li>Firestore</li><li>FCM</li><li>Supabase</li><li>MySQL</li><li>SharedPreferences</li></ul></article>
+                <article class="skill-card" data-reveal><span class="skill-index">Tools &amp; delivery</span><h3>Development workflow</h3><p>API testing, source control and mobile release preparation.</p><ul class="tags"><li>Git &amp; GitHub</li><li>Postman</li><li>Insomnia</li><li>Swagger UI</li><li>APK generation</li></ul></article>
             </div>
-            <div class="bars">
-                <div class="info">
-                    <span>Dart</span>
-                    <span>85%</span>
-                </div>
-                <div class="line dart"></div>
+        </div></section>
+
+        <section class="section container" id="education" aria-labelledby="education-title">
+            <div class="section-heading" data-reveal><div><p class="eyebrow section-kicker">The foundation</p><h2 id="education-title">Always a <em>student.</em></h2></div><p>A background in computer science and software engineering, with curiosity that continues beyond the classroom.</p></div>
+            <div class="education-grid"><article class="education-card" data-reveal><span class="eyebrow">Postgraduate</span><h3>M.Sc. in Computer Science</h3><p class="education-focus">Software Engineering</p><p>American International University Bangladesh (AIUB)</p><span class="grade">CGPA <strong>3.54</strong> / 4.00</span></article><article class="education-card" data-reveal><span class="eyebrow">Undergraduate</span><h3>B.Sc. in Computer Science &amp; Engineering</h3><p>American International University Bangladesh (AIUB)</p><span class="grade">CGPA <strong>3.34</strong> / 4.00</span></article></div>
+            <div class="school-row" data-reveal><div><span class="eyebrow">2017 / HSC · Science</span><h3>Milestone College, Dhaka</h3><p>GPA 5.00 / 5.00</p></div><div><span class="eyebrow">2015 / SSC · Science</span><h3>CDA Public School and College, Chattogram</h3><p>GPA 4.78 / 5.00</p></div></div>
+        </section>
+
+        <section class="section contact-section" id="contact" aria-labelledby="contact-title"><div class="container">
+            <p class="eyebrow section-kicker" data-reveal>Start a conversation</p><div class="contact-grid"><div class="contact-copy" data-reveal><h2 id="contact-title">Have an idea?<br>Let's make it<br><em>something real.</em></h2><p>For project conversations, collaboration or professional opportunities, get in touch.</p><a class="contact-email" href="mailto:kazishayem1234@gmail.com">kazishayem1234@gmail.com</a><div class="contact-details"><span>Dhaka, Bangladesh</span><a href="tel:+8801881166493">+880 1881-166493</a></div><div class="contact-socials"><a class="text-link" href="https://github.com/Kazishayem" target="_blank" rel="noopener noreferrer">GitHub</a><a class="text-link" href="https://www.linkedin.com/in/kazishayem/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div>
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/xnqwlovl" method="POST" data-reveal><h3>Tell me what you're thinking.</h3><div class="form-row"><div class="form-field"><label for="contact-name">Your name <span aria-hidden="true">*</span></label><input id="contact-name" name="name" type="text" autocomplete="name" placeholder="How should I call you?" maxlength="120" required></div><div class="form-field"><label for="contact-email">Email address <span aria-hidden="true">*</span></label><input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="254" required></div></div><div class="form-field"><label for="contact-subject">What's this about?</label><select id="contact-subject" name="subject"><option value="Project collaboration">A project collaboration</option><option value="Job opportunity">A job opportunity</option><option value="Say hello">Just saying hello</option></select></div><div class="form-field"><label for="contact-message">Your message <span aria-hidden="true">*</span></label><textarea id="contact-message" name="message" rows="4" placeholder="A little about your idea, team, or project…" maxlength="5000" required></textarea></div><button id="contact-submit" class="button button-primary" type="submit">Send message</button><p class="form-note">Required fields are marked *. Your message is sent via Formspree.</p><p id="form-status" class="form-status" role="status" aria-live="polite" aria-atomic="true"></p></form>
             </div>
-            <div class="bars">
-                <div class="info">
-                    <span>Riverpod / BLoC</span>
-                    <span>80%</span>
-                </div>
-                <div class="line state"></div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>REST API / WebSocket</span>
-                    <span>80%</span>
-                </div>
-                <div class="line api"></div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>Firebase</span>
-                    <span>80%</span>
-                </div>
-                <div class="line firebase"></div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>Git / GitHub</span>
-                    <span>85%</span>
-                </div>
-                <div class="line git"></div>
-            </div>
-        </div>
-    </div>
-</div>
+        </div></section>
+    </main>
 
-</section>
-<!--skill end-->
-
-
-<!--project section start-->
-
-<section class="swiper mySwiper projects" id="projects">
-    <div class="max-width">
-        <h2 class="title">My Projects</h2>
-        <div class="swiper-wrapper carousel owl-carousel">
-            <div class="swiper-slide card">
-                <div class="box">
-                    <img src="images/project_ecommerce.png" alt="E-commerce app mockup">
-                <div class="text">E-commerce Shopping Mobile App (Client Project)</div>
-                <div class="project-tech">Technologies: Flutter, Dart, Material UI, Responsive Layout, Figma to Flutter</div>
-                <div class="project-links">
-                    <a href="https://www.loom.com/share/e97a25b39f8c46618dd9aae4509d951b" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-globe"></i> Watch Video
-                    </a>
-                </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="images/project_iron_ready.jpg" alt="Iron Ready fitness app mockup">
-                <div class="text">Iron Ready - Athlete Fitness & Recovery App (Client Project)</div>
-                <div class="project-tech">Technologies: Flutter, Dart, Material UI, Responsive Layout, Figma to Flutter</div>
-                <div class="project-links">
-                    <a href="https://www.loom.com/share/431364b7f8c24d3a903d6cce39a1aec2" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-globe"></i> Watch Video
-                    </a>
-                </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="images/project_foodie.png" alt="Foodie app mockup">
-                <div class="text">Foodie - Food Delivery Mobile Application</div>
-                <div class="project-tech">Technologies: Flutter, Dart, flutter_bloc, REST API, http, Equatable</div>
-                <div class="project-links">
-                    <a href="https://github.com/Kazishayem/Foodie-App" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-globe"></i> View GitHub
-                    </a>
-                </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="images/project_healthcare.png" alt="HealthCare app mockup">
-                <div class="text">HealthCare Mobile Application</div>
-                <div class="project-tech">Technologies: Flutter, Dart, Material UI, Responsive Layout, Figma to Flutter</div>
-                <div class="project-links">
-                    <a href="https://github.com/Kazishayem/HealthCare-_app" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-globe"></i> View GitHub
-                    </a>
-                </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="images/streamley.jpeg" alt="Video streaming app mockup">
-                <div class="text">Video Streaming Mobile App (Client Project)</div>
-                <div class="project-tech">Technologies: Flutter, Dart, REST API, Dio, Riverpod, Stripe</div>
-                <div class="project-links">
-                    <a href="https://www.loom.com/share/dec499ab9a7b495daaafb7e7a04dcb96" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-globe"></i> Watch Video
-                    </a>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-  </div>
-</section>
-
-
-
-
-<!--project section end-->
-
-
-<!--certificate section start-->
-
-<!-- <section class="swiper mySwiper certificates" id="certificates">
-    <div class="max-width">
-        <h2 class="title">Strengths</h2>
-        <div class="swiper-wrapper carousel owl-carousel">
-            <div class="swiper-slide card">
-                <div class="box">
-                    <img src="images/c1.jpg" alt="">
-                <div class="text">Responsibility</div>
-                <span>Own tasks and deliver on time</span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="images/c2.jpg" alt="">
-                <div class="text">Problem Solving</div>
-                <span>Strong analytical thinking</span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="images/c3.jpg" alt="">
-                <div class="text">Teamwork</div>
-                <span>Clear communication and self-motivation</span>
-                </div>
-            </div>
-          
-        </div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-</section> -->
-
-
-<!--certificate section end-->
-
-
-<!--contact section start-->
-
-
-<section class="contact" id="contact">
-    <div class="max-width">
-        <h2 class="title">Contact Me</h2>
-        <div class="contact-content">
-            <div class="column left">
-                <div class="text">Get in Touch</div>
-                <p>Have a Flutter project or an app idea? Let's collaborate. Reach me by email or phone and I will respond quickly.</p>
-                <div class="icons">
-                    <div class="row">
-                        <i class="fa-solid fa-user"></i>
-                        <div class="info">
-                            <div class="head">Name</div>
-                            <div class="sub-title">Kazi Shayem Mahamood</div>
-                        </div>
-                    </div>
-                 
-                    <div class="row">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div class="info">
-                            <div class="head">Address</div>
-                            <div class="sub-title">Chattagram,Bangladesh</div>
-                        </div>
-                    </div>
-                   
-                    <div class="row">
-                        <i class="fa-solid fa-envelope"></i>
-                        <div class="info">
-                            <div class="head">Email</div>
-                            <div class="sub-title">kazishayem1234@gmail.com</div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <i class="fa-solid fa-phone"></i>
-                        <div class="info">
-                            <div class="head">Phone</div>
-                            <div class="sub-title">01881166493</div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <i class="fa-brands fa-github"></i>
-                        <div class="info">
-                            <div class="head">GitHub</div>
-                            <div class="sub-title">github.com/Kazishayem</div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <div class="info">
-                            <div class="head">LinkedIn</div>
-                            <div class="sub-title">linkedin.com/in/kazishayem</div>
-                        </div>
-                    </div>
-                  
-                </div>
-            </div>
-            <div class="column right">
-                <div class="text">Message Me</div>
-                <form id="my-form" action="https://formspree.io/f/xnqwlovl" method="POST">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" name ="name" placeholder="Name" required>
-                        </div>
-                        <div class="field email">
-                            <input type="email" name="email" placeholder="Email" required>
-                        </div>
-                        
-                    </div>
-                    <!-- <div class="field">
-                        <input type="text" placeholder="Subject" required>
-                    </div> -->
-                    <div class="field textarea">
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
-                    </div>
-                    <div class="button" id="my-form-button">
-                        <button type="submit">Send Message</button>
-                    </div>
-                    <p id="my-form-status" class="p-4"></p>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<!--contact section end-->
-
-
-<!--footer section start-->
-
-<footer>
-    <span>Created by <a href="#">Kazi Shayem Mahamood</a>  |  <span class="fa-solid fa-copyright"></span> 2026 All Rights Reserved.</span>
-</footer>
-
-<!-- image lightbox -->
-<div class="lightbox" id="image-lightbox">
-    <span class="lightbox-close" id="lightbox-close"><i class="fa-solid fa-xmark"></i></span>
-    <img class="lightbox-img" id="lightbox-img" alt="Project image preview">
-</div>
-
-
-<!--footer section end-->
-
-
-    <script src="JS/index.js"></script>
-    
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home" aria-label="Kazi Shayem, back to home">ks<span class="accent">.</span></a><p>© <span data-year>2026</span> Kazi Shayem Mahamood</p><span>Made with care. Built to connect.</span><a class="text-link" href="#home">Back to the top</a></div></footer>
+    <a id="back-to-top" class="back-to-top" href="#home" aria-label="Back to top">Top</a>
+    <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-caption"><div class="dialog-header"><p id="dialog-caption">Project preview</p><button id="dialog-close" type="button" aria-label="Close project preview">×</button></div><img id="dialog-image" alt="Expanded project preview"></dialog>
 </body>
 </html>
-
-
